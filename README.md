@@ -9,3 +9,17 @@ Dynamic Grid Updates: Gaps are filled by shifting numbers downward and leftward.
 Player Interaction: Players choose rows and columns, ensuring valid moves.
 Scoring System: Points are earned based on the numbers and size of eliminated groups.
 End Condition: The game ends when no connected groups are left.
+
+input example:
+2 -1 -1 //left col
+-1 -1 2 //right col
+-1 2 -1 -1 //top row
+-1 -1 -1 0 //bottom row
+L R L R
+U U L R
+D D L R
+
+output example of filled valley:,
+B H B H
+H B N N
+B H B H
